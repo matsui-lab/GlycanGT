@@ -34,3 +34,12 @@ Install other dependencies:
 pip install triton==3.1.0 glycowork==1.6.2 scikit-learn==1.7.0 numpy==1.26.4 scipy==1.15.3
 ```
 
+# Get embeddings from the glycan IUPAC condensed
+In this script, you can provide glycans written in **IUPAC condensed format** as input in a `.csv` or `.txt` file.  
+The script reads the glycans, converts them into graph structures, and then extracts their embeddings using GlycanGT.  
+
+Run the following script to obtain the embeddings:
+```bash
+
+```
+
