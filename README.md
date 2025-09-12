@@ -57,6 +57,26 @@ Instead, we release them on the [Hugging Face Hub](https://huggingface.co/Akikit
 - **GitHub**: Code and scripts for reproducibility  
 - **Hugging Face**: Pretrained model weights and inference examples
 
+# Reproducibility
+
+To facilitate reproducibility of our results, we provide a structured set of scripts and data resources in this repository:
+
+- **`data/clean/`**  
+  Filtered glycan data obtained from GlyCosmos.  
+  This directory also includes curated monosaccharide and glycosidic linkage dictionaries located in **`vocab_expanded/`**.
+
+- **`prep/`**  
+  Scripts for processing the clean data, building dictionaries, and converting glycans into graph representations.
+
+- **`tokenizer/`**  
+  Preprocessing scripts used to tokenize glycans into node (monosaccharide) and edge (glycosidic linkage) tokens.
+
+- **`training/`**  
+  Scripts for pretraining GlycanGT using the processed graph data generated in `prep/`.
+
+- **`analysis/`**  
+  Downstream analysis scripts for evaluating the pretrained model across various tasks (taxonomy, glycosylation, immunogenicity, and ambiguous glycan prediction).
+
 # License
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 You are free to use, modify, and distribute this software under the terms of the license.
