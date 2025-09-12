@@ -19,6 +19,7 @@ This repository provides instructions for environment setup, glycan embedding ex
 
 ## Install GlycanGT 
 Create aconda enviroment:
-'''
+```bash
 conda create -n glycangt python=3.12 -y
-'''
+```
+
