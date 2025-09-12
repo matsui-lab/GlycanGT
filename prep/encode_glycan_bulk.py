@@ -10,7 +10,7 @@ from typing import List
 import pandas as pd
 
 import sys
-sys.path.append("/share3/kitani/glycoGT")
+sys.path.append("/path/to/glycoGT")
 from tokenizer.monomer_vocab import MonomerVocab
 from tokenizer.linkage_vocab import LinkageVocab
 from tokenizer.encode_glycan import iupac_to_graph_triples
