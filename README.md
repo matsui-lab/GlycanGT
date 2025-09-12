@@ -7,4 +7,15 @@ Thanks to MLM pre-training, GlycanGT can also predict missing components—such 
 This repository provides instructions for environment setup, glycan embedding extraction with GlycanGT, and methods for predicting ambiguous glycan sequences.
 
 # Installation
+## Dependencies
+- Python 3.12
+- torch 2.5.1+cu121
+- torchvision 0.20.1+cu121
+- triton 3.1.0
+- glycowork 1.6.2
+- scikit-learn 1.7.0
+- numpy 1.26.4
+- scipy 1.15.3
 
+## Install GlycanGT 
+Create an 
