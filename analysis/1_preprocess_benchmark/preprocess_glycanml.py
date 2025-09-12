@@ -14,7 +14,7 @@ sys.path.append(os.path.join(PROJECT_ROOT, 'model'))
 sys.path.append(os.path.join(PROJECT_ROOT, 'tokenizer'))
 
 
-GLYCANML_DATA_DIR = '/share3/kitani/GlycanML/data'
+GLYCANML_DATA_DIR = '/path/to/GlycanML/data'
 GLYCOGT_DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
 VOCAB_DIR = os.path.join(GLYCOGT_DATA_DIR, 'vocab_expanded')
 OUTPUT_GRAPH_DIR_BASE = os.path.join(GLYCOGT_DATA_DIR, 'processed_benchmark')
