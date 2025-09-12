@@ -93,7 +93,7 @@ def load_pretrained_tokengt_multitask(size: str, vocabs: tuple, pretrained_dir: 
     expects file name: pretrained_tokengt_{size}_multitask_final.pt
     """
     import sys, os, torch
-    sys.path.append("/share3/kitani/glycoGT/model")
+    sys.path.append("/path/to/glycoGT/model")
     from glycan_tokengt_multitask import GlycanTokenGTMultiTask
     from config_tokengt import get_config
 
