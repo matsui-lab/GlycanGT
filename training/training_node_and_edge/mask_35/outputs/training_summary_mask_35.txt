@@ -1,0 +1,22 @@
+--- TokenGT Multi-Task Pre-training Summary ---
+
+Model Size: ss
+  - Total Parameters: 1,927,677
+  - Best Epoch: 158
+  - Best Validation Loss: 1.6113
+
+Model Size: small
+  - Total Parameters: 6,215,421
+  - Best Epoch: 234
+  - Best Validation Loss: 1.4758
+
+Model Size: medium
+  - Total Parameters: 29,744,381
+  - Best Epoch: 506
+  - Best Validation Loss: 0.5365
+
+Model Size: large
+  - Total Parameters: 91,840,253
+  - Best Epoch: 485
+  - Best Validation Loss: 0.4926
+

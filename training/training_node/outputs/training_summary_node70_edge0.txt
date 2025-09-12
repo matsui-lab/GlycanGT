@@ -1,0 +1,22 @@
+--- TokenGT Multi-Task Pre-training Summary (node70_edge0) ---
+
+Model Size: ss
+  - Total Parameters: 1,927,677
+  - Best Epoch: 158
+  - Best Validation Loss: 0.9947
+
+Model Size: small
+  - Total Parameters: 6,215,421
+  - Best Epoch: 347
+  - Best Validation Loss: 0.3459
+
+Model Size: medium
+  - Total Parameters: 29,744,381
+  - Best Epoch: 444
+  - Best Validation Loss: 0.2569
+
+Model Size: large
+  - Total Parameters: 91,840,253
+  - Best Epoch: 366
+  - Best Validation Loss: 0.2319
+
