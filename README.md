@@ -43,7 +43,8 @@ Run the following script to obtain the embeddings:
 
 ```
 # License
-
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+You are free to use, modify, and distribute this software under the terms of the license.
 
 # Citation
 Citation will be available after publication.
