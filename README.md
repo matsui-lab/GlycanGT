@@ -21,5 +21,16 @@ This repository provides instructions for environment setup, glycan embedding ex
 Create aconda enviroment:
 ```bash
 conda create -n glycangt python=3.12 -y
+conda activate glycangt
+```
+
+Install PyTorch (CUDA 12.1 version):
+```bash
+pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+```
+
+Install other dependencies:
+```bash
+pip install triton==3.1.0 glycowork==1.6.2 scikit-learn==1.7.0 numpy==1.26.4 scipy==1.15.3
 ```
 
