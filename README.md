@@ -38,8 +38,7 @@ In addition, embeddings learned by GlycanGT revealed biologically meaningful clu
   <img src="https://github.com/matsui-lab/GlycanGT/blob/main/image/other.png" width="70%">
 </p>
 
-# Installation
-## Dependencies
+# Dependencies
 - Python 3.12
 - torch 2.5.1+cu121
 - torchvision 0.20.1+cu121
@@ -49,31 +48,15 @@ In addition, embeddings learned by GlycanGT revealed biologically meaningful clu
 - numpy 1.26.4
 - scipy 1.15.3
 
-## Install GlycanGT 
-Create aconda enviroment:
-```bash
-conda create -n glycangt python=3.12 -y
-conda activate glycangt
-```
+# Usage
+This repository provides scripts and resources to reproduce the experiments reported in our paper, including environment setup, data preprocessing, model training, and benchmark evaluations.
 
-Install PyTorch (CUDA 12.1 version):
-```bash
-pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
-```
+Pretrained model weights are not hosted in this repository.  
+Instead, we release them on the [Hugging Face Hub](https://huggingface.co/Akikitani295/GlycanGT), where you can download the models and run inference.
 
-Install other dependencies:
-```bash
-pip install triton==3.1.0 glycowork==1.6.2 scikit-learn==1.7.0 numpy==1.26.4 scipy==1.15.3
-```
+- **GitHub**: Code and scripts for reproducibility  
+- **Hugging Face**: Pretrained model weights and inference examples
 
-# Get embeddings from the glycan IUPAC condensed
-In this script, you can provide glycans written in **IUPAC condensed format** as input in a `.csv` or `.txt` file.  
-The script reads the glycans, converts them into graph structures, and then extracts their embeddings using GlycanGT.  
-
-Run the following script to obtain the embeddings:
-```bash
-
-```
 # License
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 You are free to use, modify, and distribute this software under the terms of the license.
