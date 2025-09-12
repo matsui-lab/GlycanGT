@@ -77,6 +77,10 @@ To facilitate reproducibility of our results, we provide a structured set of scr
 - **`analysis/`**  
   Downstream analysis scripts for evaluating the pretrained model across various tasks (taxonomy, glycosylation, immunogenicity, and ambiguous glycan prediction).
 
+  ⚠️ **Note:**  
+Datasets for downstream tasks are **not included** in this repository.  
+They must be obtained separately from [GlycanML](https://arxiv.org/abs/2406.06850). Please download the benchmark datasets from GlycanML and place them in the appropriate directory before running the analysis scripts.
+
 # License
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 You are free to use, modify, and distribute this software under the terms of the license.
