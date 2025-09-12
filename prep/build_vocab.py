@@ -11,7 +11,7 @@ import re
 from glycowork.motif.graph import glycan_to_nxGraph
 
 import sys
-sys.path.append("/share3/kitani/glycoGT")
+sys.path.append("/path/to/glycoGT")
 from tokenizer.monomer_vocab import MonomerVocab
 from tokenizer.linkage_vocab import LinkageVocab
 
