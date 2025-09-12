@@ -29,6 +29,9 @@ We benchmarked GlycanGT against existing graph-based approaches, including Sweet
   GlycanGT achieved the highest performance, with an AUPRC of 0.844.
 
 ![Performance benchmarks](https://github.com/matsui-lab/GlycanGT/blob/main/image/benchmarks.png)
+<p align="center">
+  <img src="https://github.com/matsui-lab/GlycanGT/blob/main/image/benchmarks.png" width="70%">
+</p>
 
 In addition, embeddings learned by GlycanGT revealed biologically meaningful clusters in motif enrichment analyses, separating glycan classes such as sialylated N-glycans and O-glycan cores. The model also demonstrated strong performance in predicting missing monosaccharides and linkages in ambiguous glycans, achieving >80% top-5 accuracy even under heavy masking.
 
