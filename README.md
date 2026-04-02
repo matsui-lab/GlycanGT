@@ -87,7 +87,12 @@ You are free to use, modify, and distribute this software under the terms of the
 
 # Citation
 If you use this codebase in your research, please cite:
-Kitani, A., Zhang, B., Himori, K., and Matsui, Y. (2026).
-GlycanGT: A Pretrained Graph Transformer Framework for Glycan Graph Representation and Generative Learning.
-Bioinformatics. doi:10.1093/bioinformatics/btag147
-
+```bibtex
+@article{kitani2026glycangt,
+  title={GlycanGT: A Pretrained Graph Transformer Framework for Glycan Graph Representation and Generative Learning},
+  author={Kitani, Akihiro and Zhang, Bingyuan and Himori, Koichi and Matsui, Yusuke},
+  journal={Bioinformatics},
+  year={2026},
+  doi={10.1093/bioinformatics/btag147}
+}
+```
